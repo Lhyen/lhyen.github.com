@@ -1,1 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="prototype historicizing website">
+    <meta name="author" content="Haiyen Le">
+
+    <title>The &lt;blockquote&gt element;</title>
+
+    <!-- Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/freelancer.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body id="page-top" class="index">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#page-top">&lt;blockquote&gt;</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#portfolio">Content Blocks</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#about">About this Historicizing Project</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#contact">Reference List</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <img class="img-responsive" src="img/cloud.png" alt="">
+                    <div class="intro-text">
+                        <span class="name">Historicizing Project: HTML &lt;Blockquote&gt;</span>
+                        <hr class="star-light">
+                        <span class="skills">By Haiyen Le</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Portfolio Grid Section -->
+    <section id="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Content Blocks</h2>
+                    <hr class="star-primary">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x">
+								<p>HTML 4 Specs</p></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/case.png" class="img-responsive img-centered" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x">
+								<p>Usage on the Web</p></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/lamp.png" class="img-responsive img-centered" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x">
+								<p>Block Quotations</p></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/package.png" class="img-responsive img-centered" alt="">
+                    </a>
+                </div>
+				<div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x">
+								<p>HTML5 Specs</p></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/newsletter.png" class="img-responsive img-centered" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x">
+								<p>Causes for Misuse</p></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/wooden-sign.png" class="img-responsive img-centered" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+								<p>Pull Quotes</p>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/cut.png" class="img-responsive img-centered" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="success" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>About</h2>
+                    <hr class="star-light">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                <blockquote>"A critical element to understanding any literacy technology is to understand how even the newest digital media is intertwined with older media and the cussedness of human (in)decision (See Fig. 2). In this writing project, I am asking you to historicize a soft Web technology and the complexity of human decision-making driving its development."
+				<footer><cite>Chris Lindgren</cite></footer></blockquote><br>
+				<p>For my historicizing project, I chose to historicize the &lt;blockquote&gt; element. I originally chose it because it had a close connection to elements of print technology that interested me. During the research process, I came to learn that its ties to print elements actually created a problem in its semantic usage.
+				</p></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>References Used</h2>
+                    <hr class="star-primary">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. -->
+                    <!-- The form should work on most web servers, but if the form is not working you may need to configure your web server differently. -->
+                    <ul>
+						<li>Gibson, R., Hester, J., & Stewart, S. &#40;2001&#41;. Pull Quotes Shape Reader Perceptions of News Stories. <i>Newspaper Research Journal<i>, 22&#40;2&#41;, 66-78.</li>
+						<li>Petric, B. &#40;2012&#41; Legitimate textual borrowing: Direct quotation in L2 student writing. Journal of Second Language Writing, 21. 102-117
+						<li>Henige, D. &#40;2006&#41;. Discouraging Verification: Citation Practices Across the Disciplines. <i>Journal of Scholarly Publishing</i>, 99-115.</i>
+						<li>World Wide Consortium &#40;1999&#41;. 9.2.2 Quotations: The BLOCKQUOTE and Q elements. <i>HTML 4.01 Specification.</i></li><br>
+						<li>WHAT Working Group &#40;2015&#41;. 4.4.4 The blockquote element. <i>HTML Living Standard.</i></li>
+						
+					</ul>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center">
+        <div class="footer-above">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col col-md-4">
+                        <h3>Location</h3>
+                        <p>University of Minnesota<br>Minneapolis, MN 55455</p>
+                    </div>
+                    <div class="footer-col col-md-4"> 
+                    </div>
+                    <div class="footer-col col-md-4">
+                        <h3>About Freelancer</h3>
+                        <p>Freelance is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-below">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        Copyright &copy; Your Website 2014
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+    <div class="scroll-top page-scroll visible-xs visible-sm">
+        <a class="btn btn-primary" href="#page-top">
+            <i class="fa fa-chevron-up"></i>
+        </a>
+    </div>
+
+    <!-- Portfolio Modals -->
+    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Project Title</h2>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/case.png" class="img-responsive img-centered" alt="">
+                            <p>The blockquote element was introduced in the HTML 4.01 specification by the World Wide Web Consortium in December 1999. Under the description within W3C’s recommendation, blockquote is one of the elements that handles the structure of text and is classified as a block-level element. Block-level elements will usually display on a new line and take up the space of its parent container, making a “block”. A conspicuous example of this is blockquote itself, which requires starting a new line and filling up its parent container to separate its content as a quote from other content. This is different from the other type, inline elements, which can only take up what is within its tags, but can be displayed anywhere on a line without the need to start a new one, such as italics or emphasis. Returning to the recommendation by W3C, this difference between block-level and inline-level content helps to distinguish the blockquote and the q element, the both of which share a similar function: the blockquote is a block-level element for longer quotations, while the q element is an inline element for shorter quotes (W3C, 1993). In plain HTML, the usage of the blockquote element in rendered text would be indicated by the start of a new line and the indentation of the text. With Bootstrap, it gets a little more decorative, as shown here&59;</p>
+								<blockquote> Since the language of both quotations is American English, user agents should render them appropriately, for example with single quote marks around the inner quotation and double quote marks around the outer quotation…
+									<footer><cite>W3C</cite></footer>
+								</blockquote>
+							<p>The reason for why this element was specified is unknown, but it seems to take after the writing practice of block quotations in print, where a long quotation in the document would be signified and separated from the rest of the text through the entire block being indented in.
+							</p>
+                            <ul class="list-inline item-details">
+                                
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Usage on the Web</h2>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/lamp.png" class="img-responsive img-centered" alt="">
+								<p>Currently on the web, blockquote has been used in ways outside of both specifications by W3C and WHATWG. Obviously, it can still be used as it was intended, which would include a proper citation like the HTML5 specification recommends. However, in the realm of web writing, that is a very niche purpose for a surprisingly versatile element, as people with some knowledge of how to use HTML and CSS have found. One mundane usage of the blockquote element is to function as indentation for text. The WHATWG mailing list noted that during development that simple text indentation was a very common way to use blockquote, which led to heated discussion on semantics. This is a completely incorrect way to use blockquote that defies the recommendations, but due to how it does indent the text naturally, it has been used for that purpose as a typing shortcut when there is limited knowledge on text structure in HTML. Another usage of the blockquote tag is creating pull quotes. This practice is common on web articles for news websites, such as this pull quote from a BBC article, created with the blockquote element according the page source</p>
+								<blockquote><img src="http://i.imgur.com/UML2xZm.png"></p>
+								<footer>From the BBC article, The Perils of Unlimited Holiday</footer></blockquote><br>
+								<blockquote><img src="http://i.imgur.com/0DeVsjl.png"></p>
+								<footer>Highlighted blockquote markup from Page Source</footer></blockquote><br>
+								<p>Because they are quotations from within the text instead of an outside source and would not have the attribution without being redundant, using the blockquote element for pull quote is also considered incorrect usage, according to its definition as a semantic HTML element.
+                            <ul class="list-inline item-details">
+                                
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Block Quotations</h2>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/package.png" class="img-responsive img-centered" alt="">
+                            <p>Block quotations would appear to be what the markup of blockquote is based on. The usage of block quotations is intended for quoting from an outside source, where the quoted text is usually more than one hundred words or takes up at least four lines of indented text. The purpose of the block quotation is to present a longer quote as significant evidence. Thus, when used in a document, they would have rhetorical value for the reader through ethos or logos. Due to how a block quotation can be abused in writing to fill up space in the writer’s stead, there are many guidelines to how it should be properly used in a document. With that in mind, it seemed that the blockquote was meant more to represent a block quote in visual presentation rather than the actual mechanics and guidelines to it. Due to their unwieldiness in text, especially in professional and academic papers, block quotation in such have become less common in them. This may be due to belief that they are excessive compared to shorter quotations and seen as a practice of amateur academic writing. In studies that compared the direct quotation practices in low- and high-rated theses, the latter had shorter quotations, but were used more prolifically with stronger cause for their usage (Petric, 2012). Block quotations can be more awkward to justify their purpose in a paper, compared to shorter quotations. There is also the concern of plagiarism, where writers worry that longer quotations and the obscure block quotation could be improperly formatted (Henige, 2006).</p>
+                            <ul class="list-inline item-details">
+                                <li>Client:
+                                    <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
+                                    </strong>
+                                </li>
+                                <li>Date:
+                                    <strong><a href="http://startbootstrap.com">April 2014</a>
+                                    </strong>
+                                </li>
+                                <li>Service:
+                                    <strong><a href="http://startbootstrap.com">Web Development</a>
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>HTML 5 Specification</h2>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/newsletter.png" class="img-responsive img-centered" alt="">
+                            <p>When HTML 5 was created, the blockquote element was included for legacy purposes <a href=” https://lists.w3.org/Archives/Public/public-whatwg-archive/2012Feb/0229.html”>[1]</a>. However, according to mailing lists from when HTML 5 was still in development in 2012 by the WHAT Working Group, there was a discussion on setting up the specification for proper usage of blockquote by having it semantically require citations for the quoted content. Or rather, the discussion in some parts devolved into squabble on why effort should be put into legacy element made into a more proper tool when often, it was noted to be used used more for indentation than actual quotations <a href=” https://lists.w3.org/Archives/Public/public-whatwg-archive/2012Feb/0222.html”>[2]</a>. The exchange of emails also involved topics of consistency, semantics, and concerns of “proper authoring”. This was met with some difficulties for actually making it more proper as a writing tool, with some. It is also noted in the mailing list that it would be “annoying” as some put it, to make the specification closer in line to how traditional manuals of style dictate block quotations, notably the Chicago Manual of Style which is often used for most publications. The member of the WHATWG mailing list who commented on it as such, Oli Studholme, even created a database listing what the Chicago Manual of Style requires for a traditional block quotation, many of which would be impossible <a href=” http://oli.jp/example/blockquote-metadata/”>[3]</a>.  There also was a lack of deeper examination into the use cases of blockquote beyond the awareness of inconsistencies in citation within the element and the acknowledgement of real-life cases for blockquote (noted as different from use cases) <a href="https://lists.w3.org/Archives/Public/public-whatwg-archive/2012Feb/0226.html”>[4]</a>. In the end, they decide that the original markup should remain intact, as CSS can handle the presentation of it. There is no absolute documentation of the disagreements being fully resolved. However, they do add onto its definition from the HTML 4 specification, including that text within the blockquote element should be an outside-sourced quotation with a source for where the quoted text is taken from. The source should be then framed with the cite element (WHATWG, 2015).</p>
+							<ul class="list-inline item-details">
+                                
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Causes for Misuse</h2>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/wooden-sign.png" class="img-responsive img-centered" alt="">
+                            <p>The misuse of blockquote is often not one with malevolent intentions, or even realized as misuse in many cases by the user. A person would have to know the specification of blockquote to realize the latter, and to put it bluntly, looking up specifications is not always necessary when the creation of web content is so streamlined by modern technology that broad audience can accomplish such a task, sometime without ever needing to see a line of HTML markup. Due to that, one cause of this problem is through how blockquote is presented to the regular audience. A way to think of this issue is as such: a person would likely require background knowledge of HTML to use blockquote in a semantically correct manner, however, that knowledge isn’t required at all for a person to use the blockquote element in the in the. Blockquote is a common feature of many rich text editors, an interface that simplifies writing for web content with a live preview and editing of rendered text without the writer needing to type in code, also known as “what you see is what you get” (WYSIWYG). Often there is little context for what this blockquote button does, except that the visual rhetoric of quotation marks would imply that it’s used for some sort of quotation, and using it on the rich text would only give a surface-level response as to what it does. 
+								<blockquote><img src="http://i.imgur.com/k9wJUu5.png">
+									<footer>Rich Text editor for WordPress post</footer></blockquote><br>
+								<blockquote><img src="http://i.imgur.com/gNCbpMd.png">
+									<footer>CKEditor Demo</footer></blockquote><br>
+							<p>For those who do understand HTML and can use its markup along with Cascading Style Sheets (CSS), they wouldn’t need to strictly follow semantics. The stance on proper usage can vary from expert to expert. A technology that can be seen a somewhat encouraging the idea that blockquote can be used for quotes is CSS itself. With the use of CSS, a blockquote can transforms from indented text to a rhetorically functional visual element, with details such as enlarged quotation marks, a colored box for a background, and so on. While a person can definitely make a semantically correct blockquote while applying CSS to make it a more reader-friendly element, often that isn’t the case. A quotation with the purpose of supporting an argument through logos wouldn’t need the pathos kind of appeal that a blockquote with CSS can provide. The third reason is that the blockquote element in any web writing practice is done based off of the traditional print practices of the block quotation and pull quote. Both are functional practices of writing for printed documents, however they serve different purposes are found in different fields of writing. What they do have in common is that they are a quotation added to a text, something that the blockquote element can do for web writing.</p>
+                            <ul class="list-inline item-details">
+                                
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Pull Quotes</h2>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/cut.png" class="img-responsive img-centered" alt="">
+                            <p>Pull quotes are a type of visual or design element also found in print, but mainly in journalism and magazines. They create a focal point for the reader by pulling from its own source text a quote, an excerpt, or a key phrase and using that as a graphical element placed on the page, emphasizing it through changes in design and typography from the regular text (Strizver, 2010). Their purpose is for adding point of interest or visual design to a document, but they also have been found to have a strong rhetorical impact on the audience. In some cases, they can also shape the reader’s perception on the document through the availability heuristics that reader use subconsciously to absorb information, according to one study from the Newspaper Research Journal (Gibson et al., 2001). Like block quotations they are a page element that contributes the rhetorical impact of a page. While there is no HTML tag for pull quotes specifically, writers and designers do continue the practice of using pull quotes on the web. There, the role of pull quotes is looser compared to how it’s used in print, partly due to the more visually-oriented nature of web design.</p>
+                            <ul class="list-inline item-details">
+                                <li>Client:
+                                    <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
+                                    </strong>
+                                </li>
+                                <li>Date:
+                                    <strong><a href="http://startbootstrap.com">April 2014</a>
+                                    </strong>
+                                </li>
+                                <li>Service:
+                                    <strong><a href="http://startbootstrap.com">Web Development</a>
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="js/classie.js"></script>
+    <script src="js/cbpAnimatedHeader.js"></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="js/freelancer.js"></script>
+
+</body>
+
+</html>
